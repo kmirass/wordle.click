@@ -42,7 +42,7 @@ const I18N = {
         const urlLang = urlParams.get('lang');
         const savedLang = localStorage.getItem('wordle-lang');
         
-        this.currentLang = urlLang || savedLang || 'en';
+        this.currentLang = urlLang || savedLang || 'es';
         this.updateUI();
     },
 
